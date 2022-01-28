@@ -1,0 +1,97 @@
+.bg-container {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 40px;
+  }
+}
+.comment-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .comment-header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.heading {
+  font-size: 44px;
+  font-family: 'roboto';
+  color: #1e293b;
+  font-weight: 600;
+}
+.comment-image-sm {
+  display: flex;
+  width: 90%;
+  height: 90%;
+}
+@media screen and (min-width: 768px) {
+  .comment-image-sm {
+    display: none;
+  }
+}
+.comment-image-lg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .comment-image-lg {
+    display: flex;
+  }
+}
+.input-label {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+  font-family: 'roboto';
+  margin-bottom: 10px;
+}
+.input-username {
+  width: 250px;
+  height: 32px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input-comment {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #0284c7;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 26px 10px 26px;
+}
+.comments-count {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 2px 10px 2px 10px;
+  font-size: 18px;
+}
+.comments-paragraph {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #475569;
+}
+.comments-list-container {
+  margin: 0px;
+  padding: 0px;
+}
